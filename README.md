@@ -50,6 +50,7 @@ Therefore you should often consult with other analysts and inspect your data bef
 ## Where does data come from?
 
 Some simple examples are:
+
 1. Your website has a signup form that asks for the users name, email adress, and phone number. Everytime someone submits the form on your site, the data will be put into a row of a table. Each row might tell you
   - datetime the form was submitted
   - the users name
@@ -68,6 +69,8 @@ Some simple examples are:
   - how many times the ads were viewed
   - how many times people clicked on the ads
   - how much revenue the ads generated
+
+How do we think about these qualitatively?
 
 1. is raw data, that is 'small'. It could have erroneous information coming from site bugs, or people filling out forms incorrectly. There will probably be thousands of records for each day
 2. is raw data, that is (probably) 'big'. There could be erroneous information, and there will probably be millions of records generated each day
