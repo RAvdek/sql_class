@@ -50,6 +50,7 @@ Therefore you should often consult with other analysts and inspect your data bef
 ## Where does data come from?
 
 Some simple examples are:
+
 1. Your website has a signup form that asks for the users name, email adress, and phone number. Everytime someone submits the form on your site, the data will be put into a row of a table. Each row might tell you
   - datetime the form was submitted
   - the users name
