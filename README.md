@@ -10,7 +10,7 @@ http://www.navicat.com/download/navicat-essentials
 
 I'll give instructions on how to connct to the databases in Slack
 
-## What's it all about?
+## Database terminology
 
 Imagine you go to the dentist's office, and have to fill out an insurance form. 
 How do you store and organize the forms so it's easy to access them them later?
@@ -19,15 +19,13 @@ How do you store and organize the forms so it's easy to access them them later?
 - It's going to go in the drawer labeled "Insurance forms"
 - The drawer is filled with records of peoples' insurance information
 - The format of every form in that drawer is the same: 
-    Name (text), address (text), date of birth (date), provider (text), ...
-- Your form will be separated by manilla folders/dividers labeled with the first letter of your last name. 
-    Each drawer will have a bunch of manilla folders/dividers
-    This makes it easier for the receptionist to find your form next time you visit.
+    - Name (text), address (text), date of birth (date), provider (text), ...
+- Your form will be separated by manilla folders/dividers labeled with the first letter of your last name. Each drawer will have a bunch of manilla folders/dividers. This makes it easier for the receptionist to find your form next time you visit.
 
 Databases solve the same sort of organizational problem for many kinds of electronic data:
 
 - A **database** is a place to store a bunch of data. The filing cabinet
-- A **table** is a table of data, just like in Excel. A drawer of the cabinet
+- A **table** is a collection of data, each datum having the same type. A drawer of the cabinet
 - A **record** is a row in a table. An individual form
 - A **schema** describes the data in each row of the table. The structure of the insurance form
 - An **index** is a tool for organizing records. The manilla divider
